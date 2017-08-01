@@ -1,0 +1,98 @@
+
+header {font-family: Bitter, serif; text-align: center; }
+
+body {background-color: black;}
+
+.container {
+  background-color: #FFB3A7;
+  max-width: 1000px;
+  background-image: url(images/squares.png);
+  text-align: center;
+  width: 900px;
+  margin: auto;
+  
+ 
+}
+
+footer {font-family: Bitter, serif; 
+text-align: center;
+
+}
+/*Navigation styling below */
+nav {width: 800px;
+  margin: auto;
+  
+}
+/* need to figure out why nav isn't centered*/
+
+ nav ul 
+{background-color:lightblue; 
+list-style-type: none;
+text-align: center
+}
+
+ nav li 
+{display: inline-block; 
+padding: 20px;
+margin: auto;
+float: left;
+  font-family: Raleway;
+  color:black; 
+  font-weight: bold;
+  background-color:#7BDCF8;
+  
+}
+
+nav a 
+{text-decoration: none; 
+font-family: Raleway; 
+color: black; 
+text-transform: uppercase;
+  
+width: 120px;
+}
+
+.body {
+  font-family: Raleway,sans-serif;
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  text-align: center;
+}
+
+.body img {text-align: center; 
+display: inline-block;
+width: 49%;
+vertical-align: top;
+
+}
+  .half {display: inline-block;
+width: 49%;
+vertical-align: top;
+}
+ 
+ 
+    .blue {background-color: #7BDCF8;
+      font-family: Bitter; sans-serif;
+    }
+    
+    
+.phototext {text-align: center; 
+font-family: Raleway, sans-serif;
+}
+
+.text {background-color: rgba(253, 255, 214, 0.9);
+width: 700px;
+max-width: 800px; 
+text-align: center;
+margin: auto;
+}
+
+.intro {background-color: rgba(253, 255, 214, 0.9);
+display: inline-block;
+width: 49%;}
+
+.text ul {text-align: left;}
+
+
+.text ol {text-align: left;}
