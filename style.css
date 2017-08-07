@@ -1,12 +1,15 @@
 
-header {font-family: Bitter, serif; text-align: center; }
+header {font-family: Bitter, serif; 
+text-align: center; }
+
+header h1 {font-size: 45px;}
 
 body {background-color: black;}
 
 .container {
   background-color: #FFB3A7;
   max-width: 1000px;
-  background-image: url(images/squares.png);
+  background-image: url(images/circles.png);
   text-align: center;
   width: 900px;
   margin: auto;
@@ -14,33 +17,40 @@ body {background-color: black;}
  
 }
 
+
+
 footer {font-family: Bitter, serif; 
 text-align: center;
+background-color: #7BDCF8;
 
 }
 /*Navigation styling below */
-nav {width: 800px;
-  margin: auto;
-  
-}
+
 /* need to figure out why nav isn't centered*/
 
- nav ul 
-{background-color:lightblue; 
-list-style-type: none;
-text-align: center
+.horizontal { background-color: #7BDCF8;}
+
+.horizontal nav {width: 900px;
+max-height: 90px;
+  margin: auto;
+ 
+text-align:left;
+  color: #ff7f50;
+  padding: 3px;}
+
+.horizontal ul 
+{list-style-type: none;
+text-align: center;
 }
 
- nav li 
+ .horizontal li 
 {display: inline-block; 
-padding: 20px;
+padding: 30px;
 margin: auto;
-float: left;
+font-size: 20px;
   font-family: Raleway;
   color:black; 
-  font-weight: bold;
-  background-color:#7BDCF8;
-  
+  font-weight:bold;
 }
 
 nav a 
@@ -52,9 +62,10 @@ text-transform: uppercase;
 width: 120px;
 }
 
+.cover {display: inline-block;}
+
 .body {
   font-family: Raleway,sans-serif;
-  display: inline-block;
   width: 49%;
   vertical-align: top;
   text-align: center;
@@ -64,6 +75,7 @@ width: 120px;
 display: inline-block;
 width: 49%;
 vertical-align: top;
+font-family: Bitter, serif;
 
 }
   .half {display: inline-block;
@@ -74,11 +86,14 @@ vertical-align: top;
  
     .blue {background-color: #7BDCF8;
       font-family: Bitter; sans-serif;
+      font-size: 20px;
     }
+  
     
     
-.phototext {text-align: center; 
+.phototext { 
 font-family: Raleway, sans-serif;
+
 }
 
 .text {background-color: rgba(253, 255, 214, 0.9);
@@ -88,11 +103,36 @@ text-align: center;
 margin: auto;
 }
 
+.body {text-align: center;
+  margin: auto;
+}
+
 .intro {background-color: rgba(253, 255, 214, 0.9);
-display: inline-block;
-width: 49%;}
 
-.text ul {text-align: left;}
+  margin: auto;
+  width: 85%;
+  text-align: center;
+}
+
+.intro p{width: 100%;}
+
+.cow {display: inline-block;
+width: 70%;
+  
+}
+
+.list {display: inline-block; 
+background-color: #7BDCF8;
+width: 19%;
+font-family: Raleway, sans-serif;
+margin: auto;
+vertical-align: top;
+text-align: center;
+}
+
+ul {text-align: left;}
 
 
-.text ol {text-align: left;}
+ol {text-align: left;}
+
+p {font-family: Raleway; sans-serif;}
